@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lal.ink Art – İclal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #eee;
+      margin: 0; padding: 0;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 900;
+      font-size: 2.4rem;
+      color: #ff3366;
+    }
+    header p {
+      margin: 0.4rem 0 0;
+      font-style: italic;
+      font-weight: 600;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section.about {
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+    section.about p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      max-width: 650px;
+      margin: 0 auto;
+      color: #ccc;
+    }
+    section.gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+      gap: 1rem;
+    }
+    section.gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(255,51,102,0.5);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    section.gallery img:hover {
+      transform: scale(1.05);
+    }
+    section.contact {
+      text-align: center;
+      margin-top: 3rem;
+    }
+    section.contact a {
+      display: inline-block;
+      background: #ff3366;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 4px 10px #ff3366cc;
+      transition: background-color 0.3s ease;
+    }
+    section.contact a:hover {
+      background: #ff5577;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lal.ink Art – İclal</h1>
+    <p>Her dövme bir iz, her iz bir hikaye.</p>
+  </header>
+  <main>
+    <section class="about">
+      <p>İclal, çizgileriyle ruhu anlatan bir dövme sanatçısıdır. Sanatını ince detaylarla işler.</p>
+    </section>
+    <section class="gallery">
+      <a href="https://www.instagram.com/p/DJrnnJCIjhu/" target="_blank" rel="noopener noreferrer">
+        <img src="images/tattoo1.jpg" alt="Dövme 1" />
+      </a>
+      <a href="https://www.instagram.com/p/DJrgmlGooqO/" target="_blank" rel="noopener noreferrer">
+        <img src="images/tattoo2.jpg" alt="Dövme 2" />
+      </a>
+      <a href="https://www.instagram.com/p/DJrQxP4Ipja/" target="_blank" rel="noopener noreferrer">
+        <img src="images/tattoo3.jpg" alt="Dövme 3" />
+      </a>
+      <a href="https://www.instagram.com/p/DIhGz3JIzH1/" target="_blank" rel="noopener noreferrer">
+        <img src="images/tattoo4.jpg" alt="Dövme 4" />
+      </a>
+      <a href="https://www.instagram.com/p/DG_cKgtIxSq/" target="_blank" rel="noopener noreferrer">
+        <img src="images/tattoo5.jpg" alt="Dövme 5" />
+      </a>
+      <a href="https://www.instagram.com/reel/DG09Ue6IfyL/" target="_blank" rel="noopener noreferrer">
+        <img src="images/tattoo6.jpg" alt="Dövme 6" />
+      </a>
+    </section>
+    <section class="contact">
+      <a href="https://www.instagram.com/lal.inkart" target="_blank" rel="noopener noreferrer">Instagram'dan Randevu Al</a>
+    </section>
+  </main>
+  <footer>
+    Bu site, onun yeteneğine olan hayranlıkla hazırlandı. ❤️
+  </footer>
+</body>
+</html>
